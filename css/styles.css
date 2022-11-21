@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Times New Roman');
+@import url('https://fonts.googleapis.com/css?family=sans-serif');
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Bottom {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.distance {
+    height: 60px;
+}
+
+.main {
+    margin: auto;
+    max-width: 1400px;
+}
+
+.boxContainer {
+    display: block;
+}
+
+.box {
+    flex: 1;
+    font-size: 15px;
+    min-width: 150px;
+    text-align: justify;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+}
+
+.box1_3 {
+    background-color: rgb(180, 180, 230);
+}
+
+.box2 {
+    background-color:rgb(218, 235, 250) ;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.img {
+    width: 94%;
+    padding: 3% 3%;
+}
+.img1 {
+    width: 49%;
+    float: right;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.text {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family:sans-serif;
+    font-size: 14px;
+}
+
+@media screen and (min-width : 800px) {
+    .boxContainer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+}
